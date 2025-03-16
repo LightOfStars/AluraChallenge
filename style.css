@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 0;
 }
 
 /* Sección de entrada */
@@ -134,6 +134,21 @@ ul {
     margin: 20px 0;
 }
 
+.name-list {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(4, auto);
+    gap: 1px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.name-list li {  
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
 .result-list {
     margin-top: 15px;
     color: #05DF05;
